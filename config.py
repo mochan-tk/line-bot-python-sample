@@ -1,0 +1,4 @@
+# coding: utf-8
+
+CHANNEL_SECRET = ''
+CHANNEL_ACCESS_TOKEN = ''

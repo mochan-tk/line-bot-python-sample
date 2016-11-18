@@ -5,11 +5,11 @@ api_version: 1
 threadsafe: yes
 
 handlers:
+- url: /worker
+  script: main.app
+  login: admin
+  secure: always
+
 - url: .*
   script: main.app
-
-libraries:
-- name: webapp2
-  version: "2.5.2"
-- name: ssl
-  version: latest
+  secure: always

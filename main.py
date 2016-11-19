@@ -5,9 +5,6 @@ from gae_http_client import RequestsHttpClient
 
 from google.appengine.api import taskqueue
 
-from google.appengine.ext import vendor
-vendor.add('lib')
-
 from flask import Flask, request, abort
 
 from linebot import (
